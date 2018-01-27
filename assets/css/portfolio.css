@@ -1,22 +1,78 @@
-
 .videoContainer 
 {
     position: absolute;
     height: 100%;
     width: 100%;
     overflow: hidden;
+     z-index:-101
 }
 
 .videoContainer video 
 {
     min-width: 100%;
     min-height: 100%;
+     z-index:-100
 }
 
-i {
+.fire {
   color: red;
 }
 
 #name {
   color: blue;
+}
+
+.centralText {
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: calc(1em + 0.8vw);
+  color: black;
+  text-align: center;
+  margin-top: 25vh;
+}
+
+@media screen and (max-width: 40em) {
+  .centralText {
+    font-size: 1.2em;
+    margin-top: 5vh;
+  }
+
+  #main {
+  font-size: 3em;
+  font-weight: bold;
+  }
+
+  #inspire {
+   font-size: 1.5em;
+  margin-top: 10vh;  
+  }
+
+  #quote {
+  font-size: 1.5em;
+  margin-bottom: 10vh;
+  }
+
+  #twitter, #codepen, #github {
+  color: #2513af;
+  font-size: 3em;
+}
+
+}
+
+#main {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+#quote {
+  margin-top: 5vh;
+}
+
+.connect {
+  font-size: 1.5em;
+}
+
+#twitter, #codepen, #github {
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #2513af;
 }
