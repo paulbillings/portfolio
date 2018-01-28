@@ -9,7 +9,7 @@ body {
 
 .videoContainer 
 {
-    position: absolute;
+    position: fixed;
     height: 100%;
     width: 100%;
     overflow: hidden;
@@ -39,7 +39,7 @@ body {
   font-size: calc(1em + 0.8vw);
   color: black;
   text-align: center;
-  margin-top: 25vh;
+  padding-top: 25vh;
   z-index:100;
 }
 
@@ -110,6 +110,7 @@ body {
 #main {
   font-size: 2em;
   font-weight: bold;
+  margin-top: 8vh;
 }
 
 #quote {
