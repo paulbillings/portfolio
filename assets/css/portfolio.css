@@ -1,6 +1,9 @@
-@import url(//fonts.googleapis.com/css?family=Sedgwick+Ave);
+@import url(//fonts.googleapis.com/css?family=Sedgwick+Ave);*/
 
-
+body {
+  background: orange;
+  z-index: -103;
+}
 
 .videoContainer 
 {
@@ -9,6 +12,7 @@
     width: 100%;
     overflow: hidden;
     z-index:-101;
+    opacity: 0.7;
 }
 
 .videoContainer video 
@@ -16,6 +20,7 @@
     min-width: 100%;
     min-height: 100%;
     z-index:-100;
+    opacity: 0.7;
 }
 
 .fire {
@@ -23,7 +28,8 @@
 }
 
 #name {
-  color: blue;
+  color: white;
+  font-family: 'Roboto';
 }
 
 .centralText {
@@ -77,7 +83,7 @@
 }
 
 #twitter, #codepen, #github {
-  margin-left: 25px;
-  margin-right: 25px;
+  margin-left: 20px;
+  margin-right: 20px;
   color: #2513af;
 }
