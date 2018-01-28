@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/css?family=Sedgwick+Ave);*/
+@import url(//fonts.googleapis.com/css?family=Sedgwick+Ave);
 
 body {
   background: orange;
@@ -83,7 +83,7 @@ body {
 }
 
 #twitter, #codepen, #github {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 15px;
+  margin-right: 15px;
   color: #2513af;
 }
