@@ -1,8 +1,10 @@
-@import url(//fonts.googleapis.com/css?family=Sedgwick+Ave);
+/*@import url(//fonts.googleapis.com/css?family=Sedgwick+Ave);*/
 
 body {
-  background: orange;
-  z-index: -103;
+    background: #F7971E;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    z-index: -103;
 }
 
 .videoContainer 
@@ -12,7 +14,7 @@ body {
     width: 100%;
     overflow: hidden;
     z-index:-101;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .videoContainer video 
@@ -20,7 +22,7 @@ body {
     min-width: 100%;
     min-height: 100%;
     z-index:-100;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 .fire {
@@ -41,32 +43,68 @@ body {
   z-index:100;
 }
 
+.aboutMe {
+  font-family: 'Roboto';
+  font-size: calc(1em + 0.8vw);
+  color: black;
+  text-align: center;
+  margin-top: 25vh;
+  z-index:100;
+}
+
+.skills {
+  font-family: 'Roboto';
+  font-size: calc(1em + 0.8vw);
+  color: black;
+  text-align: center;
+  margin-top: 25vh;
+  z-index:100;
+}
+
+.projects {
+  font-family: 'Roboto';
+  font-size: calc(1em + 0.8vw);
+  color: black;
+  text-align: center;
+  margin-top: 25vh;
+  z-index:100;
+}
+
+@media screen and (max-width: 75em) {
+  .aboutMe {
+    margin-top: 50vh;
+  }
+}
+
 @media screen and (max-width: 40em) {
   .centralText {
     font-size: 1.2em;
-    margin-top: 5vh;
+    margin-top: 8vh;
   }
 
   #main {
-  font-size: 3em;
+  font-size: 1.5em;
   font-weight: bold;
   }
 
   #inspire {
-   font-size: 1.5em;
+   font-size: 1em;
   margin-top: 10vh;  
   }
 
   #quote {
-  font-size: 1.5em;
+  font-size: 1em;
   margin-bottom: 10vh;
   }
 
   #twitter, #codepen, #github {
   color: #2513af;
-  font-size: 3em;
-}
+  font-size: 1.5em;
+  }
 
+  .aboutMe {
+    margin-top: 30vh;
+  }
 }
 
 #main {
