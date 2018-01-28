@@ -50,6 +50,7 @@ body {
   text-align: center;
   margin-top: 25vh;
   z-index:100;
+  padding: 0 20vw 0 20vw;
 }
 
 .skills {
@@ -57,7 +58,8 @@ body {
   font-size: calc(1em + 0.8vw);
   color: black;
   text-align: center;
-  margin-top: 25vh;
+  margin-top: 15vh;
+  padding: 0 20vw 0 20vw;
   z-index:100;
 }
 
@@ -66,7 +68,8 @@ body {
   font-size: calc(1em + 0.8vw);
   color: black;
   text-align: center;
-  margin-top: 25vh;
+  margin-top: 15vh;
+  padding: 0 20vw 0 20vw;
   z-index:100;
 }
 
@@ -105,6 +108,7 @@ body {
   .aboutMe {
     margin-top: 30vh;
   }
+
 }
 
 #main {
@@ -127,3 +131,16 @@ body {
   color: #2513af;
 }
 
+.thumbnail {
+  height: auto;
+  width: auto;
+}
+
+ul {
+   list-style-type: none;
+}
+
+h1 {
+  font-family: 'Sedgwick Ave', cursive;
+  text-decoration: underline;
+}
