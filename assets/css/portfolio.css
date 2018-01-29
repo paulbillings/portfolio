@@ -1,10 +1,11 @@
 /*@import url(//fonts.googleapis.com/css?family=Sedgwick+Ave);*/
 
 body {
-    background: #F7971E;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #FFD200, #F7971E);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #FFD200, #F7971E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #D3CCE3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: -103;
+    padding-right: 5vw;
 }
 
 .videoContainer 
@@ -79,10 +80,16 @@ body {
   }
 }
 
+@media screen and (max-width: 120em) {
+  .aboutMe {
+    margin-top: 50vh;
+  }
+}
+
 @media screen and (max-width: 40em) {
   .centralText {
     font-size: 1.2em;
-    margin-top: 8vh;
+    padding-top: 8vh;
   }
 
   #main {
