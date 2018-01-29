@@ -5,7 +5,8 @@ body {
     background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: -103;
-    padding-right: 5vw;
+    margin: 0;
+    padding-right: 1.5vw;
 }
 
 .videoContainer 
@@ -87,24 +88,26 @@ body {
 }
 
 @media screen and (max-width: 40em) {
+
+
   .centralText {
-    font-size: 1.2em;
-    padding-top: 8vh;
+    font-size: 0.8em;
+    padding-top: 12vh;
   }
 
   #main {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold;
   }
 
   #inspire {
-   font-size: 1em;
+   font-size: 0.8em;
   margin-top: 10vh;  
   }
 
   #quote {
-  font-size: 1em;
-  margin-bottom: 10vh;
+  font-size: 0.8em;
+  margin-bottom: 25vh;
   }
 
   #twitter, #codepen, #github {
@@ -113,7 +116,8 @@ body {
   }
 
   .aboutMe {
-    margin-top: 30vh;
+    margin-top: 15vh;
+    padding: 0 10vw 0 10vw;
   }
 
 }
