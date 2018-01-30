@@ -7,6 +7,7 @@ body {
     z-index: -103;
     margin: 0;
     padding-right: 1.5vw;
+    overflow-x: hidden;
 }
 
 .videoContainer 
@@ -25,6 +26,11 @@ body {
     min-height: 100%;
     z-index:-100;
     opacity: 0.6;
+}
+
+header {
+  height: 100vh;
+  background-size: cover;
 }
 
 .fire {
@@ -50,7 +56,6 @@ body {
   font-size: calc(1em + 0.8vw);
   color: black;
   text-align: center;
-  margin-top: 25vh;
   z-index:100;
   padding: 0 20vw 0 20vw;
 }
@@ -76,22 +81,14 @@ body {
 }
 
 @media screen and (max-width: 75em) {
-  .aboutMe {
-    margin-top: 50vh;
-  }
+ 
 }
 
 @media screen and (max-width: 120em) {
-  .aboutMe {
-    margin-top: 50vh;
-  }
+ 
 }
 
 @media screen and (max-width: 40em) {
-
-  body {
-    overflow-x: hidden;
-  }
 
   page-wrapper {
     width:auto; 
@@ -134,7 +131,6 @@ body {
   }
 
   .aboutMe {
-    margin-top: 15vh;
     padding: 0 10vw 0 10vw;
   }
 
