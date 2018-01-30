@@ -60,6 +60,10 @@ header {
   padding: 0 20vw 0 20vw;
 }
 
+ h1 {
+  padding-top: 10vh;
+}
+
 .skills {
   font-family: 'Roboto';
   font-size: calc(1em + 0.8vw);
@@ -168,4 +172,18 @@ ul {
 h1 {
   font-family: 'Sedgwick Ave', cursive;
   text-decoration: underline;
+}
+
+footer {
+  padding-top: 10vh;
+  text-align: center;
+  font-family: 'Sedgwick Ave', cursive;
+}
+
+.fa-heart {
+  color: red;
+}
+
+.fa-coffee {
+  color: black;
 }
