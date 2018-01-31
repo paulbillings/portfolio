@@ -69,7 +69,6 @@ header {
   font-size: calc(1em + 0.8vw);
   color: black;
   text-align: center;
-  margin-top: 15vh;
   padding: 0 20vw 0 20vw;
   z-index:100;
 }
@@ -79,7 +78,6 @@ header {
   font-size: calc(1em + 0.8vw);
   color: black;
   text-align: center;
-  margin-top: 15vh;
   padding: 0 20vw 0 20vw;
   z-index:100;
 }
@@ -100,7 +98,6 @@ header {
     max-width:auto;
     padding:0.5em
   }
-
 
   .centralText {
     font-size: 0.8em;
@@ -172,10 +169,13 @@ ul {
 h1 {
   font-family: 'Sedgwick Ave', cursive;
   text-decoration: underline;
+  font-weight: bold;
+  padding-bottom: 1vh;
 }
 
 footer {
   padding-top: 10vh;
+  margin-bottom: 5vh;
   text-align: center;
   font-family: 'Sedgwick Ave', cursive;
 }
