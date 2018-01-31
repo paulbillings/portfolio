@@ -10,6 +10,27 @@ body {
     overflow-x: hidden;
 }
 
+#pic {
+  height: 25vh;
+  width: 25vh;
+  margin: 0 auto;
+  padding-left: 20vw;
+  padding-right: 12vw;
+  float: left;
+ }
+
+ #pic img {
+  max-height: 25vh;
+  max-width: 25vh;
+  content: cover;
+  border-radius: 50%;
+  border: 10px solid #242426;
+  border-style: inset;
+  box-shadow: 0px 7px 8px rgba(0,0,0,0.4),
+         0px 18px 30px rgba(0,0,0,0.1),
+         0px 28px 49px rgba(0,0,0,0.1);
+ }
+
 .videoContainer 
 {
     position: fixed;
@@ -51,6 +72,13 @@ header {
   z-index:100;
 }
 
+#main {
+  text-align: left;
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+         0px 8px 13px rgba(0,0,0,0.1),
+         0px 18px 23px rgba(0,0,0,0.1);
+}
+
 .aboutMe {
   font-family: 'Roboto';
   font-size: calc(1em + 0.8vw);
@@ -62,6 +90,9 @@ header {
 
  h1 {
   padding-top: 10vh;
+  text-shadow:  0px 4px 3px rgba(0,0,0,0.4),
+                0px 8px 13px rgba(0,0,0,0.1),
+                0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .skills {
@@ -83,14 +114,30 @@ header {
 }
 
 @media screen and (max-width: 75em) {
- 
+    #pic {
+      float: none;
+      padding: 0;
+    }
+
+    #main {
+  padding-top: 3vh; 
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  }
+
 }
 
 @media screen and (max-width: 120em) {
- 
+   
 }
 
 @media screen and (max-width: 40em) {
+
+    #pic {
+      float: none;
+      padding: 0;
+    }
 
   page-wrapper {
     width:auto; 
@@ -105,7 +152,7 @@ header {
   }
 
   #main {
-  padding-top: 7vh; 
+  padding-top: 3vh; 
   width: 75vw;
   text-align: center;
   font-size: 1em;
@@ -115,7 +162,7 @@ header {
 
   #inspire {
     font-size: 1.3em;
-    margin-top: 3vh; 
+    /*margin-top: 1vh; */
     width: 75vw; 
     margin-left: 40px;
     margin-bottom: 0;
@@ -123,7 +170,7 @@ header {
 
   #quote {
   font-size: 1.3em;
-  margin-bottom: 25vh;
+  margin-bottom: 7vh;
   }
 
   #twitter, #codepen, #github {
@@ -140,7 +187,7 @@ header {
 #main {
   font-size: 2em;
   font-weight: bold;
-  margin-top: 8vh;
+  /*margin-top: 8vh;*/
 }
 
 #quote {
@@ -155,6 +202,9 @@ header {
   margin-left: 10px;
   margin-right: 10px;
   color: #2513af;
+   text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+         0px 8px 13px rgba(0,0,0,0.1),
+         0px 18px 23px rgba(0,0,0,0.1);
 }
 
 .thumbnail {
@@ -187,3 +237,7 @@ footer {
 .fa-coffee {
   color: black;
 }
+
+#inspire {
+  padding-top: 1vh;
+} 
