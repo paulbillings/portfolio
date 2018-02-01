@@ -10,11 +10,54 @@ body {
     overflow-x: hidden;
 }
 
+
+/*Many thanks for the fire effect to the user PRB from stackOverflow https://stackoverflow.com/questions/21596329/is-it-possible-to-have-an-effect-of-flowing-flame-around-a-div-border*/
+#textFire {
+   z-index: 103;
+              animation: burn 1.5s linear infinite alternate;
+      -webkit-animation: burn 1.5s linear infinite alternate;
+         -moz-animation: burn 1.5s linear infinite alternate;
+          -ms-animation: burn 1.5s linear infinite alternate;        
+    }
+
+     @keyframes burn {
+      from { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .4em #ffae34, .2em -.3em .3em #ec760c, -.2em -.4em .4em #cd4606, .1em -.5em .7em #973716, .1em -.7em .7em #451b0e; }
+      45%  { text-shadow: .1em -.2em .5em #fefcc9, .15em 0 .4em #feec85, -.1em -.25em .5em #ffae34, .15em -.45em .5em #ec760c, -.1em -.5em .6em #cd4606, 0 -.8em .6em #973716, .2em -1em .8em #451b0e; }
+      70%  { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .6em #ffae34, .2em -.3em .4em #ec760c, -.2em -.4em .7em #cd4606, .1em -.5em .7em #973716, .1em -.7em .9em #451b0e; }
+      to   { text-shadow: -.1em -.2em .6em #fefcc9, -.15em 0 .6em #feec85, .1em -.25em .6em #ffae34, -.15em -.45em .5em #ec760c, .1em -.5em .6em #cd4606, 0 -.8em .6em #973716, -.2em -1em .8em #451b0e; }            
+    }
+    
+    @-webkit-keyframes burn {
+      from { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .4em #ffae34, .2em -.3em .3em #ec760c, -.2em -.4em .4em #cd4606, .1em -.5em .7em #973716, .1em -.7em .7em #451b0e; }
+      45%  { text-shadow: .1em -.2em .5em #fefcc9, .15em 0 .4em #feec85, -.1em -.25em .5em #ffae34, .15em -.45em .5em #ec760c, -.1em -.5em .6em #cd4606, 0 -.8em .6em #973716, .2em -1em .8em #451b0e; }
+      70%  { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .6em #ffae34, .2em -.3em .4em #ec760c, -.2em -.4em .7em #cd4606, .1em -.5em .7em #973716, .1em -.7em .9em #451b0e; }
+      to   { text-shadow: -.1em -.2em .6em #fefcc9, -.15em 0 .6em #feec85, .1em -.25em .6em #ffae34, -.15em -.45em .5em #ec760c, .1em -.5em .6em #cd4606, 0 -.8em .6em #973716, -.2em -1em .8em #451b0e; }            
+    }
+    
+    @-moz-keyframes burn {
+      from { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .4em #ffae34, .2em -.3em .3em #ec760c, -.2em -.4em .4em #cd4606, .1em -.5em .7em #973716, .1em -.7em .7em #451b0e; }
+      45%  { text-shadow: .1em -.2em .5em #fefcc9, .15em 0 .4em #feec85, -.1em -.25em .5em #ffae34, .15em -.45em .5em #ec760c, -.1em -.5em .6em #cd4606, 0 -.8em .6em #973716, .2em -1em .8em #451b0e; }
+      70%  { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .6em #ffae34, .2em -.3em .4em #ec760c, -.2em -.4em .7em #cd4606, .1em -.5em .7em #973716, .1em -.7em .9em #451b0e; }
+      to   { text-shadow: -.1em -.2em .6em #fefcc9, -.15em 0 .6em #feec85, .1em -.25em .6em #ffae34, -.15em -.45em .5em #ec760c, .1em -.5em .6em #cd4606, 0 -.8em .6em #973716, -.2em -1em .8em #451b0e; }            
+    }
+    
+    @-ms-keyframes burn {
+      from { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .4em #ffae34, .2em -.3em .3em #ec760c, -.2em -.4em .4em #cd4606, .1em -.5em .7em #973716, .1em -.7em .7em #451b0e; }
+      45%  { text-shadow: .1em -.2em .5em #fefcc9, .15em 0 .4em #feec85, -.1em -.25em .5em #ffae34, .15em -.45em .5em #ec760c, -.1em -.5em .6em #cd4606, 0 -.8em .6em #973716, .2em -1em .8em #451b0e; }
+      70%  { text-shadow: -.1em 0 .3em #fefcc9, .1em -.1em .3em #feec85, -.2em -.2em .6em #ffae34, .2em -.3em .4em #ec760c, -.2em -.4em .7em #cd4606, .1em -.5em .7em #973716, .1em -.7em .9em #451b0e; }
+      to   { text-shadow: -.1em -.2em .6em #fefcc9, -.15em 0 .6em #feec85, .1em -.25em .6em #ffae34, -.15em -.45em .5em #ec760c, .1em -.5em .6em #cd4606, 0 -.8em .6em #973716, -.2em -1em .8em #451b0e; }            
+    }
+
+
+#mainAndPic {
+   padding: 0 5vw 0 5vw;
+}
+
 #pic {
   height: 25vh;
   width: 25vh;
   margin: 0 auto;
-  padding-left: 20vw;
+  padding-left: 10vw;
   padding-right: 12vw;
   float: left;
  }
@@ -24,7 +67,7 @@ body {
   max-width: 25vh;
   content: cover;
   border-radius: 50%;
-  border: 10px solid #242426;
+  border: 6px solid black;
   border-style: inset;
   box-shadow: 0px 7px 8px rgba(0,0,0,0.4),
          0px 18px 30px rgba(0,0,0,0.1),
@@ -60,7 +103,10 @@ header {
 
 #name {
   color: white;
-  font-family: 'Roboto';
+  font-family: 'Bangers', cursive;
+  font-size: 2em;
+  padding:  12px 15px;
+  letter-spacing: 2px;
 }
 
 .centralText {
@@ -113,7 +159,7 @@ header {
   z-index:100;
 }
 
-@media screen and (max-width: 75em) {
+@media screen and (max-width: 65em) {
     #pic {
       float: none;
       padding: 0;
@@ -124,7 +170,23 @@ header {
   text-align: center;
   font-size: 1em;
   font-weight: bold;
+  text-shadow: none;
   }
+
+  #inspire {
+    font-size: 0.8em;
+    /*margin-top: 1vh; */
+    width: 75vw; 
+    margin: auto;
+    margin-bottom: 0;
+  }
+
+  #quote {
+  font-size: 0.8em;
+  margin-bottom: 7vh;
+  }
+
+
 
 }
 
@@ -164,7 +226,7 @@ header {
     font-size: 1.3em;
     /*margin-top: 1vh; */
     width: 75vw; 
-    margin-left: 40px;
+    margin: auto;
     margin-bottom: 0;
   }
 
