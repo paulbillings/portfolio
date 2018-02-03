@@ -135,9 +135,18 @@ header {
   font-family: 'Roboto';
   font-size: calc(1em + 0.8vw);
   color: black;
-  text-align: center;
+  text-align: left;
   z-index:100;
-  padding: 0 20vw 0 20vw;
+  padding: 0 5vw 5vh 5vw;
+  background-image: url("http://www.boxxcosmetics.com/wp-content/uploads/2014/06/Silver-Background-1.png");
+  border: 2px solid rgba(0,0,0,0.4);
+  margin: 0 15vw 0 15vw;
+}
+
+
+.aboutMe h1 {
+  text-align: center;
+  padding-top: 5vh;
 }
 
  h1 {
@@ -292,15 +301,24 @@ header {
   width: auto;
 }
 
-ul {
+/*ul {
    list-style-type: none;
-}
+}*/
 
 h1 {
   font-family: 'Sedgwick Ave', cursive;
+  font-size: 1.7em;
   text-decoration: underline;
   font-weight: bold;
   padding-bottom: 1vh;
+}
+
+h2 {
+  font-family: 'Sedgwick Ave', cursive;
+  text-decoration: underline;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  text-align: left;
 }
 
 footer {
