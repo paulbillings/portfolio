@@ -54,8 +54,8 @@ body {
 }
 
 #pic {
-  height: 25vh;
-  width: 25vh;
+  height: 12vw;
+  width: 12vw;
   margin: 0 auto;
   padding-left: 10vw;
   padding-right: 12vw;
@@ -63,8 +63,8 @@ body {
  }
 
  #pic img {
-  max-height: 25vh;
-  max-width: 25vh;
+  max-height: 12vw;
+  max-width: 12vw;
   content: cover;
   border-radius: 50%;
   border: 6px solid black;
@@ -175,6 +175,13 @@ header {
     #pic {
       float: none;
       padding: 0;
+      height: 25vh;
+      width: 25vh;
+    }
+
+    #pic img {
+      max-height: 25vh;
+      max-width: 25vh;
     }
 
     .centralText {
@@ -207,6 +214,13 @@ header {
     #pic {
       float: none;
       padding: 0;
+      height: 25vh;
+      width: 25vh;
+    }
+
+    #pic img {
+      max-height: 25vh;
+      max-width: 25vh;
     }
 
   page-wrapper {
@@ -225,7 +239,7 @@ header {
   padding-top: 3vh; 
   width: 75vw;
   text-align: center;
-  font-size: 2.3em;
+  font-size: 2em;
   font-weight: bold;
   margin-left: 20px;
   }
