@@ -6,7 +6,6 @@ body {
     background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     z-index: -103;
     margin: 0;
-    padding-right: 1.5vw;
     overflow-x: hidden;
 }
 
@@ -180,6 +179,23 @@ header {
   /*margin-top: 8vh;*/
 }
 
+h1 {
+  font-family: 'Sedgwick Ave', cursive;
+  font-size: 1.7em;
+  text-decoration: underline;
+  font-weight: bold;
+  padding-bottom: 1vh;
+}
+
+h2 {
+  font-family: 'Sedgwick Ave', cursive;
+  text-decoration: underline;
+  padding-bottom: 1vh;
+  padding-top: 1vh;
+  text-align: left;
+}
+
+
 @media screen and (max-width: 65em) {
     #pic {
       float: none;
@@ -272,7 +288,20 @@ header {
   }
 
   .aboutMe {
-    padding: 0 10vw 0 10vw;
+    padding: 0 3vw 0 3vw;
+    margin: 0;
+    border-top: 2px solid rgba(0,0,0,0.4);
+    border-bottom: 2px solid rgba(0,0,0,0.4);
+    border-left: none;
+    border-right: none;
+  }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
   }
 
 }
@@ -304,22 +333,6 @@ header {
 /*ul {
    list-style-type: none;
 }*/
-
-h1 {
-  font-family: 'Sedgwick Ave', cursive;
-  font-size: 1.7em;
-  text-decoration: underline;
-  font-weight: bold;
-  padding-bottom: 1vh;
-}
-
-h2 {
-  font-family: 'Sedgwick Ave', cursive;
-  text-decoration: underline;
-  padding-bottom: 1vh;
-  padding-top: 1vh;
-  text-align: left;
-}
 
 footer {
   padding-top: 10vh;
