@@ -1,6 +1,7 @@
 /*@import url(//fonts.googleapis.com/css?family=Sedgwick+Ave);*/
 
 body {
+    /*Background gradient effect*/
     background: #D3CCE3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -56,7 +57,7 @@ body {
   height: 12vw;
   width: 12vw;
   margin: 0 auto;
-  padding-left: 10vw;
+  padding-left: 15vw;
   padding-right: 12vw;
   float: left;
  }
@@ -76,8 +77,8 @@ body {
 .videoContainer 
 {
     position: fixed;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     overflow: hidden;
     z-index:-101;
     opacity: 0.6;
@@ -125,9 +126,9 @@ header {
 }
 
 #inspire {
-  padding-top: 1vh;
+  padding-top: 10vh;
   font-size: 0.7em;
-  padding-bottom: 3vh;
+  padding-bottom: 0;
 } 
 
 .aboutMe {
@@ -137,9 +138,18 @@ header {
   text-align: left;
   z-index:100;
   padding: 0 5vw 5vh 5vw;
-  background-image: url("http://www.boxxcosmetics.com/wp-content/uploads/2014/06/Silver-Background-1.png");
+  /*background-image: url("http://www.boxxcosmetics.com/wp-content/uploads/2014/06/Silver-Background-1.png");*/
+  background-image: url("https://www.wallpapersbrowse.com/images/fh/fh4c8i2.jpg");
+  background-size: cover;
   border: 2px solid rgba(0,0,0,0.4);
   margin: 0 15vw 0 15vw;
+   box-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+         0px 8px 13px rgba(0,0,0,0.1),
+         0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.aboutMe p {
+  margin-bottom: 2vh;
 }
 
 
@@ -229,7 +239,7 @@ h2 {
   }
 
   #quote {
-  font-size: 1.3em;
+  font-size: 1em;
   margin-bottom: 5vh;
   }
 }
@@ -275,6 +285,8 @@ h2 {
     width: 75vw; 
     margin: auto;
     margin-bottom: 0;
+    padding-top: 3vh;
+    padding-bottom: 0;
   }
 
   #quote {
@@ -288,7 +300,7 @@ h2 {
   }
 
   .aboutMe {
-    padding: 0 3vw 0 3vw;
+    padding: 0 3vw 5vh 3vw;
     margin: 0;
     border-top: 2px solid rgba(0,0,0,0.4);
     border-bottom: 2px solid rgba(0,0,0,0.4);
@@ -349,3 +361,25 @@ footer {
   color: black;
 }
 
+a {
+  color: red;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+a:visted {
+    color: red;
+}
+
+/* mouse over link */
+a:hover {
+    color: yellow;
+}
+
+/* selected link */
+a:active {
+    color: red;
+}
