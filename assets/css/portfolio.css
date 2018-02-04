@@ -183,6 +183,11 @@ header {
   text-align: center;
   padding: 0 20vw 0 20vw;
   z-index:100;
+  text-align: left;
+}
+
+.projects h1{
+  text-align: center;
 }
 
 #main {
@@ -223,6 +228,24 @@ h2 {
    line-height: 40px;
 }
 
+.projectLink {
+  background: silver;
+   padding-top: 1vh;
+}
+
+.projectWhole {
+  padding-bottom: 7vh;
+}
+
+.projectDiv {
+  padding: 0;
+  height: 40vh;
+}
+
+.projectImg img {
+  height: 37vh;
+}
+
 
 @media screen and (max-width: 65em) {
     #pic {
@@ -260,6 +283,15 @@ h2 {
   font-size: 1em;
   margin-bottom: 5vh;
   }
+
+  .projectDiv {
+    height: 15vh;
+  }
+
+  .projectImg img {
+    height: 15vh;
+  }
+
 }
 
 @media screen and (max-width: 40em) {
@@ -350,6 +382,36 @@ h2 {
     padding-top: 0;
   }
 
+  .projectNote {
+    margin-bottom: 5vh;
+  }
+
+  .projectLink {
+    padding-top: 0;
+    margin-bottom: 0;
+  }
+
+  .projectGroup {
+    padding: 0;
+  }
+
+  .projectDiv {
+    padding: 0;
+  }
+
+  .projectWhole {
+    padding-bottom: 0;
+  }
+
+  .projectDiv {
+    padding: 0;
+    height: 34vh;
+  }
+
+.projectImg img {
+    height: 32vh;
+  }
+
 }
 
 
@@ -410,11 +472,12 @@ a:visted {
 
 /* mouse over link */
 a:hover {
-    color: yellow;
+    color: #f46207;
 }
 
 /* selected link */
 a:active {
     color: red;
 }
+
 
