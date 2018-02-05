@@ -391,6 +391,10 @@ h2 {
     margin-bottom: 0;
   }
 
+  .projectLink p {
+    margin: 0;
+  }
+
   .projectGroup {
     padding: 0;
   }
@@ -405,11 +409,11 @@ h2 {
 
   .projectDiv {
     padding: 0;
-    height: 34vh;
+    height: 29vh;
   }
 
 .projectImg img {
-    height: 32vh;
+    height: 28vh;
   }
 
 }
